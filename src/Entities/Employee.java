@@ -1,7 +1,5 @@
 package Entities;
 
-import java.util.Locale;
-
 public class Employee {
     public String name;
     public double grossSalary;

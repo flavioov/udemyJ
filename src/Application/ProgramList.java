@@ -21,22 +21,22 @@ public class ProgramList {
         list.add("Ana");
         list.add(2, "Marco");
 
-        for (String intem : list) {
-            System.out.println(intem);
+        for (String item : list) {
+            System.out.println(item);
         }
         System.out.println(list.size());
         System.out.println("-----------------");
         list.remove(1);
 
-        for (String intem : list) {
-            System.out.println(intem);
+        for (String item : list) {
+            System.out.println(item);
         }
         System.out.println(list.size());
         System.out.println("-----------------");
 
         list.removeIf(x -> x.charAt(0) == 'M');
-        for (String intem : list) {
-            System.out.println(intem);
+        for (String item : list) {
+            System.out.println(item);
         }
         System.out.println(list.size());
         System.out.println("-----------------");
