@@ -1,30 +1,30 @@
 package Entities;
 
 public class Employee2 {
-    private static int id;
-    private static String name;
-    private double salary;
+    private Integer id;
+    private String name;
+    private Double salary;
 
     public Employee2(int id, String name, double salary) {
-        Employee2.id = id;
-        Employee2.name = name;
+        this.id = id;
+        this.name = name;
         this.salary = salary;
     }
 
-    public static int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public static String getName() {
+    public String getName() {
         return name;
     }
 
-    public double getSalary() {
+    public Double getSalary() {
         return salary;
     }
 
     public void setBonus(double bonus) {
-        this.salary *= (1 + (bonus/100));
+        salary *= (1 + (bonus / 100));
     }
 
 }
