@@ -1,6 +1,6 @@
 package Application;
 
-import Entities.KeyboarInput;
+import Myclasses.KeyboarInput;
 import Entities.Student;
 
 import java.util.Locale;
@@ -10,8 +10,6 @@ public class ProgranaAluno {
         Locale.setDefault(Locale.US);
 
         //keyboard input
-        KeyboarInput bufferReaderSimplified;
-        bufferReaderSimplified = new KeyboarInput();
 
         //Parent class
         Student studentOne;
@@ -19,10 +17,10 @@ public class ProgranaAluno {
 
         //data input
         System.out.println("Enter the student data: ");
-        studentOne.studentName = bufferReaderSimplified.readAString("Student Name: ");
-        studentOne.firstTest = bufferReaderSimplified.readDoubleType("First test: ");
-        studentOne.secondTest = bufferReaderSimplified.readDoubleType("Second test: ");
-        studentOne.thirdTest = bufferReaderSimplified.readDoubleType("Third test: ");
+        studentOne.studentName = KeyboarInput.readAString("Student Name: ");
+        studentOne.firstTest = KeyboarInput.readDoubleType("First test: ");
+        studentOne.secondTest = KeyboarInput.readDoubleType("Second test: ");
+        studentOne.thirdTest = KeyboarInput.readDoubleType("Third test: ");
 
         //output
         System.out.println("FINAL GRADE = " + studentOne.average() + "\n" + studentOne);

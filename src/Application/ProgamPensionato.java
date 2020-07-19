@@ -1,6 +1,6 @@
 package Application;
 
-import Entities.KeyboarInput;
+import Myclasses.KeyboarInput;
 import Entities.Pensionato;
 
 import java.util.Objects;

@@ -1,7 +1,7 @@
 package Application;
 
 
-import Entities.KeyboarInput;
+import Myclasses.KeyboarInput;
 
 import java.text.DecimalFormat;
 import java.util.Locale;

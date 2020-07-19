@@ -1,7 +1,7 @@
 package Application;
 
 import Entities.Employee2;
-import Entities.KeyboarInput;
+import Myclasses.KeyboarInput;
 
 import java.util.ArrayList;
 import java.util.List;

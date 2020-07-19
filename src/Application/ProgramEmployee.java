@@ -1,7 +1,7 @@
 package Application;
 
 import Entities.Employee;
-import Entities.KeyboarInput;
+import Myclasses.KeyboarInput;
 
 import java.util.Locale;
 
@@ -11,20 +11,17 @@ public class ProgramEmployee {
 
         //Keyboard input
         KeyboarInput someString, someNumber;
-        someString = new KeyboarInput();
-        someNumber = new KeyboarInput();
 
         //input
         Employee employee1;
         employee1 = new Employee();
 
-        employee1.name = someString.readAString("name: ");
-        employee1.grossSalary = someNumber.readDoubleType("Gross Salary: ");
-        employee1.tax = someNumber.readDoubleType("Tax: ");
+        employee1.name = KeyboarInput.readAString("name: ");
+        employee1.grossSalary = KeyboarInput.readDoubleType("Gross Salary: ");
+        employee1.tax = KeyboarInput.readDoubleType("Tax: ");
         System.out.println("Update data: " + employee1);
 
-        employee1.addBonus(someNumber.readDoubleType("Which percentage to increase the salary?: "));
+        employee1.addBonus(KeyboarInput.readDoubleType("Which percentage to increase the salary?: "));
         System.out.println("Update data: " + employee1);
-
     }
 }

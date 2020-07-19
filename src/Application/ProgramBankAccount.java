@@ -1,7 +1,7 @@
 package Application;
 
 import Entities.BankAccount;
-import Entities.KeyboarInput;
+import Myclasses.KeyboarInput;
 
 import java.util.Locale;
 
