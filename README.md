@@ -2,20 +2,20 @@
 
 [Link do curso](https://www.udemy.com/course/java-curso-completo/)
 
-- seção 1: Introdução
-- seção 2: Conceitos de Programação
-- seção 3: Introdução à linguagem Java
-- seção 4: Estrutura sequencial
-- seção 5: Estrutura condicional 
-- seção 6: Estruturas repetitivas
-- seção 7: Outros tópicos básicos sobre java
-- seção 8: Introdução à programação orientada a objeto
-- seção 9: Construturoes, palavra 'this', sobrecarga e encapsulamento
-- seção 10: Comportamento de memória, arrays e listas
-- seção 11: Tópicos especiais em java
-- seção 12: Bônus - nivelamento sobre Git e Github
-- seção 13: Enumeração, composição
-- seção 14: Herança e polimorfismo
+- seção 1: Introdução - ok
+- seção 2: Conceitos de Programação - ok
+- seção 3: Introdução à linguagem Java - ok
+- seção 4: Estrutura sequencial - ok
+- seção 5: Estrutura condicional  - ok
+- seção 6: Estruturas repetitivas - ok
+- seção 7: Outros tópicos básicos sobre java - ok
+- seção 8: Introdução à programação orientada a objeto - ok
+- seção 9: Construturoes, palavra 'this', sobrecarga e encapsulamento - ok
+- seção 10: Comportamento de memória, arrays e listas - ok
+- seção 11: Tópicos especiais em java - ok
+- seção 12: Bônus - nivelamento sobre Git e Github - ok
+- seção 13: Enumeração, composição - ok
+- seção 14: Herança e polimorfismo - Loading....
 - seção 15: Tratamento e exceções
 - seção 16: projeto: sistema jogo de xadrez
 - seção 17: Trabalhando com arquivos 
